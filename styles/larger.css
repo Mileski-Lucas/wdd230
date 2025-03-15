@@ -35,6 +35,15 @@ header span{
 
 }
 
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
 nav {
     background-color: #434343;
     display: flex;
@@ -121,6 +130,11 @@ section ul{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+    color: #434343;
+}
+
+section ul li a{
+    color: #434343;
 }
 
 footer{
