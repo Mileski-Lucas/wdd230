@@ -1,0 +1,22 @@
+
+body{
+    background-color: #CAE9FF;
+}
+
+header{
+    background-color: #62B6CB;
+    color: #1B4965;
+}
+
+nav {
+    background-color: #1B4965;
+    color: #CAE9FF;
+}
+
+nav a{
+    color: #CAE9FF;
+}
+main{
+    color: #1B4965;
+}
+
