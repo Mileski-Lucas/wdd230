@@ -4,6 +4,10 @@ const header = document.querySelector("header");
 const nav = document.querySelector("nav");
 const h2 = document.querySelectorAll("h2");
 const h1 = document.querySelector("h1");
+const li = document.querySelectorAll("li");
+const ul = document.querySelectorAll("ul");
+const p = document.querySelectorAll("p")[1];
+
 
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("🕶️")) {
@@ -16,6 +20,13 @@ modeButton.addEventListener("click", () => {
             h2.style.background = "#000";
         });        
         h1.style.color = "#f8f8f8";
+        li.forEach(li => {
+            li.style.color = "#000";
+        });  
+        ul.forEach(ul => {
+            ul.style.color = "#000";
+        });
+        p.style.color = "#000";
 		modeButton.textContent = "🔆";
 	} else {
 		main.style.background = "#faebcd";
