@@ -1,0 +1,36 @@
+header{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 500px 0;
+}
+
+img{
+    width: 400px;
+    height: auto;
+    background: #000;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
