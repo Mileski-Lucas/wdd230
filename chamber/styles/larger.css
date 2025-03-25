@@ -65,6 +65,7 @@ nav a:hover{
 
 .hero-home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/hero_img.jpg');
+    background-color: #000;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -75,7 +76,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #CAE9FF;
+    color: #fff;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
