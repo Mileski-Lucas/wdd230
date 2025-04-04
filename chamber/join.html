@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Curitiba - Chamber of Commerce - Join Page</title>
+        <meta name="description" content="The Curitiba Chamber of Commerce serves as a key driver of regional economic growth, 
+        a hub for business leadership, and a strong advocate for the local community. We support businesses through member services, 
+        economic and community development initiatives, and public policy efforts that foster a thriving and balanced economy.">
+        <meta name="author" content="Lucas Mileski">
+
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz@10..72&family=Inter:opsz,wght@14..32,800&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        
+        <link rel="icon" href="favicon.ico">
+
+        <script src="scripts/getDates.js" defer></script>
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/timestamp.js" defer></script>
+
+        <meta property="og:title" content="Curitiba - Chamber of Commerce" />
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://mileski-lucas.github.io/wdd230/chamber/index.html" />
+        <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Bandeira_de_Curitiba.svg/1200px-Bandeira_de_Curitiba.svg.png" />
+    </head>
+    <body>
+
+        <header>
+            <h1>Curitiba Chamber of Commerce</h1>
+            <img src="images/Bandeira_de_Curitiba.png" alt="Curitiba - Bandeira">
+        </header>
+
+        <nav>
+            <button id="menu-button">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <form method="get" action="thankyou.html" class="wf1">
+                <fieldset>
+
+                    <legend>Apply Here</legend>
+                    <label>First Name* <input type="text" name="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" required></label>
+                    <label>Title or Position <input type="text" name="title" pattern="[A-Za-z\s\-]{7,}"></label>
+                    <label>E-mail* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label>Organization's Name* <input type="text" name="company" required></label>
+                    <div class="membership">
+                        
+                        <div>
+                            <legend>Select a Membership Level</legend>
+                            <label><input type="radio" name="membership" value="npmembership"> NP Membership - for non profit organizations</label>
+                            <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                            <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                            <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                        </div>
+                        <div>
+                            <p></p>
+                            <p>Cost: Free | Benefits: Basic listing in our organization directory, Access to non-profit specific resources, Newsletter subscription.</p>
+                            <p>Cost: [Price]
+                                Benefits:
+                                Enhanced listing in the organization directory.
+                                Discounted access to select training workshops.
+                                Access to members-only online forum.
+                                Basic event discounts.
+                                Newsletter subscription.</p>
+                            <p>Cost: [Higher Price]
+                                Benefits:
+                                Featured listing in the organization directory.
+                                Significant discounts on all training workshops.
+                                Priority access to members-only online forum.
+                                Increased event discounts.
+                                Opportunity to host a workshop.
+                                Newsletter subscription.
+                            </p>
+                            <p>Cost: [Highest Price]
+                                Benefits:
+                                Spotlight listing on the homepage.
+                                Unlimited access to all training workshops.
+                                Exclusive access to premium members-only online forum.
+                                Maximum event discounts.
+                                Opportunity to present at major events.
+                                Advertising opportunities on our website.
+                                Dedicated account manager.
+                                Newsletter subscription.</p>
+                        </div>
+                    </div>
+                    <label>Business/Organization's Description (400 characters max)
+                        <textarea class="description" name="description" maxlength="400"></textarea>
+                    </label>
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+      
+                </fieldset>
+
+                <input type="submit" value="Apply for a Membership">
+            </form>
+            
+        </main>
+        <footer>
+            <p>©️<span id="currentyear"></span> Lucas Mileski - Paraná, Brazil</p>
+            <p>this is a project for WDD 230</p>
+            <p>Last Modification: <span id="lastModified"></span></p> 
+        </footer>
+    </body>
+</html>
