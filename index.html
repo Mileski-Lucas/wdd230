@@ -16,6 +16,8 @@
         <script src="scripts/navigation.js" defer></script>
         <script src="scripts/mode.js" defer></script>
         <script src="scripts/visitors.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/links.js" defer></script>
         <link rel="icon" href="favicon.ico">
         <meta property="og:title" content="Lucas Mileski - WDD 230 - Web Frontend Development" />
         <meta property="og:type" content="website">
@@ -55,17 +57,14 @@
                 <section class="card">  
                     <h2>Learning Activities</h2>
                     <ul>
-                        <li>Week 01 <a href="week01/holygrail.html">Layout</a> | <a href="https://byui-cse.github.io/wdd230-ww-course/week01/prepare-media-queries.html ">Media Query</a> | <a href="https://codepen.io/LMLSK/pen/bNGrVxL">CodePen</a></li>
-                        <li>Week 02 <a href="week02/design.html">Web Design Principles</a> | <a href="https://codepen.io/LMLSK/pen/OPJOrbm">CodePen</a> | <a href="week02/bom.html">DOM Manipulation</a></li>
-                        <li>Week 03 <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">lazy-loading</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/bom.html">Local Storage</a></li>
-                        <li>Week 04 <a href="https://codepen.io/LMLSK/pen/azbRYLP">CSS pseudo-classes</a> | <a href="week04/images/combinators.png">Combinators</a> | <a href="week04/tablebuild.html">tablebuild</a> | <a href="week04/form-start/Form-start/index.html">Form</a></li>
-                        <li>Week 05 <a href="https://codepen.io/LMLSK/pen/pvoYEKd">CSS pseudo-elements</a> | <a href="week05/new-ward-members.json">Json</a> | <a href="week05/prophets.html">Prophets Page</a> | <a href="week05/weather.html">Weather</a></li>
-                        <li>Week 06 <a href=" "> </a></li>
-                        <li>Week 07 <a href=" "> </a></li>
+                        <li id="assignment"></li>
                     </ul>    
                 </section>
                 <section class="card">  
                     <h2>Information</h2>
+                    <span id="current-temp"></span>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
                     <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
                 </section>
             </div>
