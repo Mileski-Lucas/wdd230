@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Celepar",
+    "address": "Av. das Araucárias, 4529, Santa Felicidade, Curitiba - PR, 82020-320",
+    "phone": "+55 (41) 3456-8920",
+    "website": "https://www.celepar.pr.gov.br",
+    "image": "images/celepar_logo.webp",
+    "membership_level": "Silver Membership",
+    "industry": "Information Technology",
+    "founded_year": 1964,
+    "contact_email": "info@celepar.pr.gov.br"
+  },
+  {
+    "name": "Code21",
+    "address": "Av. das Tecnologias, 88, Jardim das Américas, Curitiba - PR, 81530-000",
+    "phone": "+55 (41) 3777-7788",
+    "website": "https://www.code21.com.br",
+    "image": "images/code21_logo.webp",
+    "membership_level": "Gold Membership",
+    "industry": "Software Development",
+    "founded_year": 2012,
+    "contact_email": "connect@code21.com.br"
+  },
+  {
+    "name": "Fábrica do Belo",
+    "address": "Rua da Decoração, 215, Rebouças, Curitiba - PR, 80230-210",
+    "phone": "+55 (41) 3080-3219",
+    "website": "https://www.fbinteriores.com.br",
+    "image": "images/belo_logo.webp",
+    "membership_level": "NP Membership",
+    "industry": "Interior Design",
+    "founded_year": 2015,
+    "contact_email": "contact@fbinteriores.com.br"
+  },
+  {
+    "name": "Mercado Binário",
+    "address": "Rua do Sol, 3100, Alto da XV, Curitiba - PR, 80045-120",
+    "phone": "+55 (41) 4000-9400",
+    "website": "https://www.mercadobinario.com.br",
+    "image": "images/Logo_Mercado_Binario.webp",
+    "membership_level": "Silver Membership",
+    "industry": "Digital Marketing",
+    "founded_year": 2010,
+    "contact_email": "support@mercadobinario.com.br"
+  },
+  {
+    "name": "Positivo Tecnologia",
+    "address": "Rua das Inovações, 123, CIC, Curitiba - PR, 81460-000",
+    "phone": "+55 (41) 3123-1234",
+    "website": "https://www.positivotecnologia.com.br",
+    "image": "images/positivo_tech_logo.webp",
+    "membership_level": "Gold Membership",
+    "industry": "Technology",
+    "founded_year": 1989,
+    "contact_email": "contact@positivotecnologia.com.br"
+  },
+  {
+    "name": "Regenera",
+    "address": "Alameda Empresarial, 988, Centro Cívico, Curitiba - PR, 80530-230",
+    "phone": "+55 (41) 3090-7723",
+    "website": "https://www.regenera.com.br",
+    "image": "images/regenera_logo.webp",
+    "membership_level": "Gold Membership",
+    "industry": "Biotechnology",
+    "founded_year": 2021,
+    "contact_email": "hello@regenera.com.br"
+  },
+  {
+    "name": "Stefanini IT Solutions",
+    "address": "Rua do Porto, 77, Batel, Curitiba - PR, 80420-000",
+    "phone": "+55 (41) 3344-3345",
+    "website": "https://www.stefanini.com",
+    "image": "images/stefanini_logo.webp",
+    "membership_level": "Bronze Membership",
+    "industry": "IT Services",
+    "founded_year": 1987,
+    "contact_email": "sales@stefanini.com"
+  }
+]

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>Curitiba - Chamber of Commerce</title>
+        <title>Curitiba - Chamber of Commerce - Directory Page</title>
         <meta name="description" content="The Curitiba Chamber of Commerce serves as a key driver of regional economic growth, 
         a hub for business leadership, and a strong advocate for the local community. We support businesses through member services, 
         economic and community development initiatives, and public policy efforts that foster a thriving and balanced economy.">
@@ -21,6 +21,7 @@
 
         <script src="scripts/getDates.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/directory.js" defer></script>
 
         <meta property="og:title" content="Curitiba - Chamber of Commerce" />
         <meta property="og:type" content="website">
@@ -37,36 +38,19 @@
         <nav>
             <button id="menu-button">☰</button>
             <ul id="nav-menu">
-                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a class="active" href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
-
         <main>
-            <div class="hero-home">
-                <p class="hero-heading">Curitiba Chamber of Commerce</p>
-                <p class="hero-subheading">pushing forward local business</p>
-                <a href="">Join</a>
+            <div class="menu">
+                <button id="grid">⏹️Grid</button>
+                <button id="list">📄List</button>
             </div>
-
-            <div>
-                <section>
-                    <h3>Event 01</h3>
-                </section>
-    
-                <section>
-                    <h3>Spotlights</h3>
-                </section>
-    
-                <section>
-                    <h3>Weather Card</h3>
-                </section>
-            </div>
-
-            
-            
+            <hr>
+	        <article class="grid" id="display"></article>
         </main>
         <footer>
             <p>©️<span id="currentyear"></span> Lucas Mileski - Paraná, Brazil</p>
