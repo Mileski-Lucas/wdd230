@@ -21,6 +21,9 @@
 
         <script src="scripts/getDates.js" defer></script>
         <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/weather.js" defer></script>
+        <script src="scripts/spotlight.js" defer></script>
+        <script src="scripts/banner.js" defer></script>
 
         <meta property="og:title" content="Curitiba - Chamber of Commerce" />
         <meta property="og:type" content="website">
@@ -48,20 +51,31 @@
             <div class="hero-home">
                 <p class="hero-heading">Curitiba Chamber of Commerce</p>
                 <p class="hero-subheading">pushing forward local business</p>
-                <a href="">Join</a>
+                <a href="join.html">Join</a>
+            </div>
+            <div id="meet-banner" class="banner hidden">
+                <p>📢 Join us for the Chamber of Commerce Meet & Greet — Wednesday at 7:00 p.m.</p>
+                <button id="close-banner" aria-label="Close banner">❌</button>
             </div>
 
             <div>
-                <section>
-                    <h3>Event 01</h3>
+                <section class="spotlights">
+                    <h3 class="index-sec">Member Spotlights</h3>
+                    <div class="spotlight-cards">
+                    
+                    </div>
                 </section>
     
-                <section>
-                    <h3>Spotlights</h3>
+                <section class="forecast-section">
+                    <h3 class="index-sec">Forecast Weather</h3>
+                    <div id="forecast-container">
+                    
+                    </div>
                 </section>
     
-                <section>
-                    <h3>Weather Card</h3>
+                <section class="card">
+                    <h3 class="index-sec">Weather Card</h3>
+                    <span id="weather-info"></span>
                 </section>
             </div>
 
@@ -74,4 +88,5 @@
             <p>Last Modification: <span id="lastModified"></span></p> 
         </footer>
     </body>
+    
 </html>

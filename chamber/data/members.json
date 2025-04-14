@@ -6,6 +6,7 @@
     "website": "https://www.celepar.pr.gov.br",
     "image": "images/celepar_logo.webp",
     "membership_level": "Silver Membership",
+    "nmembership_level": 2,
     "industry": "Information Technology",
     "founded_year": 1964,
     "contact_email": "info@celepar.pr.gov.br"
@@ -17,6 +18,7 @@
     "website": "https://www.code21.com.br",
     "image": "images/code21_logo.webp",
     "membership_level": "Gold Membership",
+    "nmembership_level": 1,
     "industry": "Software Development",
     "founded_year": 2012,
     "contact_email": "connect@code21.com.br"
@@ -28,6 +30,7 @@
     "website": "https://www.fbinteriores.com.br",
     "image": "images/belo_logo.webp",
     "membership_level": "NP Membership",
+    "nmembership_level": 4,
     "industry": "Interior Design",
     "founded_year": 2015,
     "contact_email": "contact@fbinteriores.com.br"
@@ -39,6 +42,7 @@
     "website": "https://www.mercadobinario.com.br",
     "image": "images/Logo_Mercado_Binario.webp",
     "membership_level": "Silver Membership",
+    "nmembership_level": 2,
     "industry": "Digital Marketing",
     "founded_year": 2010,
     "contact_email": "support@mercadobinario.com.br"
@@ -50,6 +54,7 @@
     "website": "https://www.positivotecnologia.com.br",
     "image": "images/positivo_tech_logo.webp",
     "membership_level": "Gold Membership",
+    "nmembership_level": 1,
     "industry": "Technology",
     "founded_year": 1989,
     "contact_email": "contact@positivotecnologia.com.br"
@@ -61,6 +66,7 @@
     "website": "https://www.regenera.com.br",
     "image": "images/regenera_logo.webp",
     "membership_level": "Gold Membership",
+    "nmembership_level": 1,
     "industry": "Biotechnology",
     "founded_year": 2021,
     "contact_email": "hello@regenera.com.br"
@@ -72,6 +78,7 @@
     "website": "https://www.stefanini.com",
     "image": "images/stefanini_logo.webp",
     "membership_level": "Bronze Membership",
+    "nmembership_level": 3,
     "industry": "IT Services",
     "founded_year": 1987,
     "contact_email": "sales@stefanini.com"
