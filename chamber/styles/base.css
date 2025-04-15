@@ -91,6 +91,8 @@ nav a:hover{
     font-weight: 500;
     font-style: normal;
     font-size: 25px;
+    padding: 0;
+    margin: 0;
 }
 
 div a{
@@ -195,6 +197,10 @@ section h3{
     max-width: 600px;
     height: auto;
 
+}
+
+.hover_img:hover {
+    box-shadow: 0 0 50px #1B4965;
 }
 
 figure {
@@ -408,6 +414,118 @@ a.a-list{
     padding: 0;
     margin: 0;
     height: 1rem;
+}
+
+.spotlights{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-width: 300px;
+}
+
+.spotlight-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    gap: 5px;
+    height: auto;
+    color: #f9f9f9;
+    border: 2px solid #62B6CB;
+}
+
+.spotlight-card img{
+    width: 150px;
+}
+
+.spotlight-card a{
+    border: none;
+    font-size: 1rem;
+    color: #f9f9f9;
+    padding: 0;
+    margin: 0;
+}
+
+.index-sec{
+    width: 200px;
+}
+
+.forecast-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+#forecast-container{
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 7rem);
+    gap: 5px;
+}
+
+.forecast-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    color: #f9f9f9;
+    height: auto;
+    min-width: 250px;
+}
+
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-card img{
+    max-width: 80px;
+}
+
+.banner {
+    background-color: #ffd966;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    position: relative;
+    left: 7%;
+    z-index: 1000;
+    width: 80%;
+}
+  
+.banner button {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+  
+.hidden {
+    display: none;
 }
 
 footer{

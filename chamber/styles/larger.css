@@ -76,7 +76,8 @@ nav a:hover{
     background-position: center;
     display: block;
     width: 100%;
-    height: 600px; 
+    height: auto;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +88,8 @@ nav a:hover{
     font-weight: 500;
     font-style: normal;
     font-size: 35px;
+    margin: 0;
+    padding: 0;
 }
 
 div a{
@@ -393,6 +396,7 @@ div.list-card{
     padding: 0;
     margin: 10px;
     height: 11rem;
+    padding-top: 5px;
 }
 
 div.list-card p{
@@ -505,15 +509,17 @@ a.a-list{
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
     position: relative;
+    left: 10%;
     z-index: 1000;
+    width: 80%;
   }
   
   .banner button {
     background: none;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     cursor: pointer;
   }
   
